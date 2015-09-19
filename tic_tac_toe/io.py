@@ -54,7 +54,7 @@ def game_tied():
   _print_file('images/game_tied.txt')
 
 def invalid():
-  print "Invalid move. Please use the movement key or type '%s'." % QUIT_STRINGS[0]
+  print "Wrong Move. Use!!! the movement key or type '%s'." % QUIT_STRINGS[0]
 
 def get_move():
   reply = raw_input('\nMake your move: ')
