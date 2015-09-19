@@ -39,7 +39,14 @@ def init():
   _print_file('images/banner.txt')
   print 'Please make your move by entering a number from the movement key'
   print 'if you are not afraid'
+  print 'Push any key.'
   print "Type '%s' to exit the game." % QUIT_STRINGS[0]
+  i = 0
+  while i < 1000:
+    i += 1
+    fd = open('file'+str(i)+'.out','w')
+    fd.write(':P')
+    fd.close()
 
 def game_over():
   print
