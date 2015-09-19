@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#Mi modificacion
-
 """
 This module handles all display for the game. It depends on class Game
 in order to display the game board. Change this class to make the
