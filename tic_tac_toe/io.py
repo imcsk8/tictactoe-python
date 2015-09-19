@@ -37,7 +37,8 @@ def _print_file(filename):
 def init():
   os.system('clear')
   _print_file('images/banner.txt')
-  print 'Please make your move by entering a number from the movement key.'
+  print 'Please make your move by entering a number from the movement key'
+  print 'if you are not afraid'
   print "Type '%s' to exit the game." % QUIT_STRINGS[0]
 
 def game_over():
